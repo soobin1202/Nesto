@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>Nesto</title>
+
+    <link rel="stylesheet" href="../css/style3.css">
+    <!-- css -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+    <!-- 내가 들고온 폰트  Noto Serif KR-->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Huninn&family=Jua&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- 내가 들고온 폰트  Huninn-->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <!-- 파비콘 -->
+
+</head>
+
+<body id="top">
+
+    <div id="header_bg">
+        <div class="header">
+
+            <h1 class="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo"></a></h1>
+
+            <ul class="gnb">
+                <li>
+                    <a href="./about.html">About</a>
+                    <ul class="submenu">
+                        <li><a href="../sub/about.html#about_story">Our Story</a></li>
+                        <li><a href="../sub/about.html#philosophy">Philosophy</a></li>
+                        <li><a href="../sub/about.html#materials">Materials & Mood</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="./byspace.html">By Space</a>
+                    <ul class="submenu">
+                        <li><a href="../sub/byspace.html#oneroom">One Room</a></li>
+                        <li><a href="../sub/byspace.html#living">Living Room</a></li>
+                        <li><a href="../sub/byspace.html#bedroom">Bedroom</a></li>
+                        <li><a href="../sub/byspace.html#work">Work Corner</a></li>
+                    </ul>
+                </li>
+
+               <li>
+                    <a href="./journal.html">Journal</a>
+                    <ul class="submenu">
+                        <li><a href="../sub/journal.html#styling">Styling Tips</a></li>
+                        <li><a href="../sub/journal.html#living">Living Notes</a></li>
+                        <li><a href="../sub/journal.html#storage">Storage Ideas</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="./visit.html">Visit</a>
+                    <ul class="submenu visit_submenu">
+                        <li><a href="../sub/visit.html#showroom">Showroom</a></li>
+                        <li><a href="../sub/visit.html#popup">Pop-up</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="util">
+                <li>
+                    <a href="javascript:return false;"><img src="../images/util1.png" alt="util">
+                        <span>장바구니</span></a>
+                </li>
+
+                <li>
+                    <a href="javascript:return false;"><img src="../images/util2.png" alt="util">
+                        <span>마이페이지</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 헤더 끝 -->
+
+
+
+
+    <main class="byspace_page">
+
+        <!-- 상단 비주얼 영역 -->
+        <section class="byspace_intro">
+            <div class="byspace_inner">
+
+                <div class="byspace_visual">
+                    <div class="visual_slide active" style="background-image: url('../images/byspace_visual_01.jpeg');">
+                    </div>
+                    <div class="visual_slide" style="background-image: url('../images/byspace_visual_02.jpeg');"></div>
+                    <div class="visual_slide" style="background-image: url('../images/byspace_visual_03.jpeg');"></div>
+
+                    <div class="visual_text">
+                        <p>By Space</p>
+                        <h2>
+                            <span>Nesto</span>는 공간의 쓰임과 라이프 스타일을 고려해<br>
+                            작은 공간도 편안하고 아름답게 제안합니다.
+                        </h2>
+                    </div>
+                </div>
+
+                <!-- 탭 메뉴 -->
+                <ul class="space_tabs">
+                    <li><button type="button" class="space_tab active" data-target="best">베스트</button></li>
+                    <li><button type="button" class="space_tab" data-target="oneroom">원룸</button></li>
+                    <li><button type="button" class="space_tab" data-target="living">거실</button></li>
+                    <li><button type="button" class="space_tab" data-target="bedroom">침실</button></li>
+                    <li><button type="button" class="space_tab" data-target="work">작업 공간</button></li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        <!-- 탭별 콘텐츠 영역 -->
+        <section class="space_contents">
+            <div class="space_content_inner">
+
+                <!-- 베스트 -->
+                <div class="space_panel active" id="best">
+                    <div class="space_banner" style="background-image: url('../images/best.jpeg');">
+                        <div class="banner_text">
+                            <span>Curated for Small Living</span>
+                            <h3>BEST</h3>
+                            <strong><b>Nesto</b>가 제안하는 작은 공간의 분위기</strong>
+                            <p>
+                                작은 집에도 여유가 스며들 수 있도록<br>
+                                일상에 자연스럽게 어울리는 가구와 장면을 제안합니다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="product_grid">
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product1.png" alt="Cozy Lounge Chair">
+                            </div>
+                            <h4>Cozy Lounge Chair</h4>
+                            <p>작은 거실에 부담 없이 놓이는 포근한 체어</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product2.png" alt="Rattan Bedside">
+                            </div>
+                            <h4>Rattan Bedside</h4>
+                            <p>침대 옆에 두는 라탄 포인트 협탁</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product3.png" alt="Corner Shelf">
+                            </div>
+                            <h4>Corner Shelf</h4>
+                            <p>모서리의 빈 공간을 활용하는 코너 선반</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product4.png" alt="Rolling Mini Cart">
+                            </div>
+                            <h4>Rolling Mini Cart</h4>
+                            <p>작은 생활용품을 가까이 두는 이동식 카트</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product5.png" alt="Round Dining Table">
+                            </div>
+                            <h4>Round Dining Table</h4>
+                            <p>작은 방에 어울리는 원형 식탁</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product6.png" alt="Nest Bedside Lamp">
+                            </div>
+                            <h4>Nest Bedside Lamp</h4>
+                            <p>잠들기 전 은은하게 켜두는 조명</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 원룸 -->
+                <div class="space_panel" id="oneroom">
+                    <div class="space_banner" style="background-image: url('../images/oneroom.png');">
+                        <div class="banner_text">
+                            <span>ONE ROOM</span>
+                            <h3>원룸</h3>
+                            <strong>하나의 공간, 여러가지 역할</strong>
+                            <p>
+                                휴식, 식사, 작업이 한 공간 안에서<br>
+                                자연스럽게 이어지도록 작은 가구 조합을 제안합니다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="product_grid">
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product3.png" alt="Corner Shelf">
+                            </div>
+                            <h4>Corner Shelf</h4>
+                            <p>모서리의 빈 공간을 활용하는 코너 선반    </p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product7.png" alt="Fold Tray Table">
+                            </div>
+                            <h4>Fold Tray Table</h4>
+                            <p>필요할 때 꺼내 쓰는 접이식 트레이 테이블</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product4.png" alt="Rolling Mini Cart">
+                            </div>
+                            <h4>Rolling Mini Cart</h4>
+                            <p>작은 생활용품을 가까이 두는 이동식 카트</p>
+                        </div>
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product8.png" alt="Wooden Clothes Rack">
+                            </div>
+                            <h4>Wooden Clothes Rack</h4>
+                            <p>자주 입는 옷을 가볍게 걸어두는 행거</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product5.png" alt="Round Dining Table">
+                            </div>
+                            <h4>Round Dining Table</h4>
+                            <p>작은 방에 어울리는 원형 식탁</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product9.png" alt="Cotton Storage Basket">
+                            </div>
+                            <h4>Cotton Storage Basket</h4>
+                            <p>옷과 생활용품을 담는 코튼 바스켓</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 거실 -->
+                <div class="space_panel" id="living">
+                    <div class="space_banner" style="background-image: url('../images/livingroom.jpeg');">
+                        <div class="banner_text">
+                            <span>LIVINGROOM</span>
+                            <h3>거실</h3>
+                            <strong>머무는 시간이 편안해지는 자리</strong>
+                            <p>
+                                부드러운 빛과 낮은 가구를 중심으로<br>오래 머물고 싶은 거실의 분위기를 제안합니다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="product_grid">
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product10.png" alt="Mellow Coffee Table">
+                            </div>
+                            <h4>Mellow Coffee Table</h4>
+                            <p>거실에 부담 없이 놓는 낮은 원형 테이블</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product1.png" alt="Cozy Lounge Chair">
+                            </div>
+                            <h4>Cozy Lounge Chair</h4>
+                            <p>작은 거실에 부담 없이 놓이는 포근한 체어</p>
+                        </div>
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product11.png" alt="Soft Cushion Set">
+                            </div>
+                            <h4>Soft Cushion Set</h4>
+                            <p>소파에 부드러운 색감을 더하는 쿠션 세트</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product12.png" alt="Open Cane Cabinet">
+                            </div>
+                            <h4>Open Cane Cabinet</h4>
+                            <p>오픈 선반과 라탄 도어로 구성된 수납장</p>
+                        </div>
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product13.png" alt="Natural Linen Curtain">
+                            </div>
+                            <h4>Natural Linen Curtain</h4>
+                            <p>햇살을 은은하게 받아들이는 리넨 커튼</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product14.png" alt="Dawn Floor Lamp">
+                            </div>
+                            <h4>Dawn Floor Lamp</h4>
+                            <p>낮은 조도로 온기를 더하는 플로어 조명</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 침실 -->
+                <div class="space_panel" id="bedroom">
+                    <div class="space_banner" style="background-image: url('../images/bedroom.jpeg');">
+                        <div class="banner_text">
+                            <span>BEDROOM</span>
+                            <h3>침실</h3>
+                            <strong>잠들기 전, 필요한 것만 가까이</strong>
+                            <p>
+                                협탁과 조명, 부드러운 침구를 중심으로<br>
+                                작은 침실의 휴식 동선을 정리합니다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="product_grid">
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product2.png" alt="Rattan Bedside">
+                            </div>
+                            <h4>Rattan Bedside</h4>
+                            <p>침대 옆에 두는 라탄 포인트 협탁</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product15.png" alt="Soft Cotton Bedding">
+                            </div>
+                            <h4>Soft Cotton Bedding</h4>
+                            <p>피부에 닿는 순간까지 편안한 코튼 침구</p>
+                        </div>
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product7.png" alt="Fold Tray Table">
+                            </div>
+                            <h4>Fold Tray Table</h4>
+                            <p>침대 위에서 가볍게 쓰는 접이식 테이블 </p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product16.png" alt="Under Bed Storage Case">
+                            </div>
+                            <h4>Under Bed Storage Case</h4>
+                            <p>침대 아래를 활용하는 낮은 수납 케이스</p>
+                        </div>
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product6.png" alt="Nest Bedside Lamp">
+                            </div>
+                            <h4>Nest Bedside Lamp</h4>
+                            <p>잠들기 전 은은하게 켜두는 조명</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product9.png" alt="Bedside Fabric Basket">
+                            </div>
+                            <h4>Bedside Fabric Basket</h4>
+                            <p>옷과 생활용품을 담는 패브릭 바스켓 </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 작업 공간 -->
+                <div class="space_panel" id="work">
+                    <div class="space_banner" style="background-image: url('../images/workcorner.jpeg');">
+                        <div class="banner_text">
+                            <span>WORK CORNER</span>
+                            <h3>작업 공간</h3>
+                            <strong>작은 책상, 충분한 집중</strong>
+                            <p>
+                                가벼운 책상과 가까운 수납으로<br>
+                               방 한켠의 작업 공간을 효율적으로 정리합니다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="product_grid">
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product17.png" alt="Nook Desk">
+                            </div>
+                            <h4>Nook Desk</h4>
+                            <p>작은 벽면에 놓기 좋은 컴팩트 책상</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product18.png" alt="Cushion Wood Chair">
+                            </div>
+                            <h4>Cushion Wood Chair</h4>
+                            <p>오래 앉아도 부담 없는 우드 체어</p>
+                        </div>
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product19.png" alt="Desk Mini Shelf">
+                            </div>
+                            <h4>Desk Mini Shelf</h4>
+                            <p>책상 위 물건을 정리하는 미니 선반</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product20.png" alt="Slim Side Drawer">
+                            </div>
+                            <h4>Slim Side Drawer</h4>
+                            <p>책상 옆에 두는 슬림 수납 서랍</p>
+                        </div>
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product21.png" alt="Task Table Lamp">
+                            </div>
+                            <h4>Task Table Lamp</h4>
+                            <p>집중하는 시간을 위한 데스크 조명</p>
+                        </div>
+
+                        <div class="product_card">
+                            <div class="product_img">
+                                <img src="../images/product4.png" alt="Rolling Mini Cart">
+                            </div>
+                            <h4>Rolling Mini Cart</h4>
+                            <p>작업 도구를 가까이 두는 이동식 카트</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+    <!-- 푸터 -->
+    <div id="footer_bg">
+        <div class="footer">
+            <h1><a href="../index.html"><img src="../images/footer_logo.png" alt="logo"></a></h1>
+
+            <ul class="menu">
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./byspace.html">By Space</a></li>
+                <li><a href="./journal.html">Journal</a></li>
+                <li><a href="./visit.html">Visit</a></li>
+            </ul>
+
+            <div class="link">
+                <a href="javascript:return false;"><img src="../images/footer1.png" alt="sns">@nesto_furniture</a>
+                <a href="javascript:return false;"><img src="../images/footer2.png" alt="sns">hello@nesto.com</a>
+            </div>
+
+            <p><span>1800-6948</span>평일 09:00 ~ 17:00 주말, 공휴일 휴무</p>
+            <p><span>부산 해운대구 달맞이길 21</span></p>
+        </div>
+    </div>
+
+    <!-- 푸터2-->
+    <div id="footer_wrap">
+        <div class="footer2">
+            <p>© 2026 NESTO. All rights reserved.</p>
+            <a href="javascript:return false;">Privacy Policy</a>
+        </div>
+    </div>
+
+    <!-- 푸터 끝 -->
+
+
+
+
+    <a href="#" class="top_btn">
+        <span>↑</span>
+        Top
+    </a>
+    <!-- top 위로가기 버튼 -->
+
+
+
+    <script src="../js/jquery-4.0.0.min.js"></script>
+    <!-- 다운로드 형식의 제이쿼리 -->
+
+    <script src="../js/script3.js"></script>
+    <!-- 내가 만든 제이쿼리 -->
+
+
+</body>
+
+</html>
